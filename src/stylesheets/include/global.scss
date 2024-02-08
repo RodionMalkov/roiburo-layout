@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.page {
+  font-family: var(--regular);
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.title {
+  font-family: var(--bold);
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--inactive-text);
+}
+
+.page-title {
+  font-family: var(--bold);
+  font-size: 56px;
+  line-height: 120%;
+  margin: 24px 0;
+}

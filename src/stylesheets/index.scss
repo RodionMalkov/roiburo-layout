@@ -1,5 +1,12 @@
+@import 'include/container';
+@import 'include/fonts';
+@import 'include/global';
+@import 'include/varibles';
+
 @import '~normalize.css';
 
-@import 'include/varibles';
-@import 'include/global';
-@import 'include/fonts';
+@import 'template/content';
+@import 'template/header';
+
+@import 'components/contacts/map';
+@import 'components/contacts/contacts';
