@@ -1,0 +1,20 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 26px;
+  font-size: 16px;
+  max-width: max-content;
+  cursor: pointer;
+  
+  &--colored {
+    background-color: var(--green);
+    color: var(--white);
+  }
+
+  &--alternative {
+    color: var(--green);
+    background-color: var(--dim-green);
+  }
+
+}

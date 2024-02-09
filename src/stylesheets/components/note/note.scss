@@ -1,0 +1,12 @@
+.note {
+  position: absolute;
+  top: 56px;
+  right: 56px;
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  font-size: 14px;
+  color: var(--grey);
+  background-color: var(--white);
+  max-width: max-content;
+}

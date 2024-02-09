@@ -1,0 +1,69 @@
+.contacts {
+  position: absolute;
+  top: 56px;
+  left: 56px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: max-content;
+    padding: 56px;
+    background-color: var(--white);
+  }
+
+  &__title {
+    font-family: var(--bold);
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__row {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 442px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__item-title {
+    font-family: var(--bold);
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__item-desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey);
+  }
+
+  &__item-copy {
+    cursor: pointer;
+  }
+
+  &__item-copy:hover > path,
+  &__item-copy:hover > rect {
+    stroke: var(--green);
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: space-between;
+  }
+}
