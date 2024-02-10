@@ -1,0 +1,41 @@
+.download {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: var(--bg-grey);
+
+  &:hover {
+    outline: 1px solid var(--green);
+    outline-offset: -1px;
+    cursor: pointer;
+  }
+
+  &__ico {
+    width: 56px;
+    height: 56px;
+  }
+
+  &__info {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__title {
+    font-family: var(--bold);
+    font-size: 20px;
+    line-height: 28px;
+
+  }
+
+  &__desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey);
+  }
+}
