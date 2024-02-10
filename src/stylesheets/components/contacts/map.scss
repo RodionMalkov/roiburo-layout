@@ -16,3 +16,17 @@
     height: 64px;
   }
 }
+
+@media screen and (max-width: 1440px) {
+
+  .map {
+    background-position: -100px -10px;
+    background-size: 160%;
+  
+    &::after {
+      top: 268px;
+      left: 910px;
+    }
+  }
+
+}
