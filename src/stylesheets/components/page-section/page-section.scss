@@ -26,16 +26,35 @@
   }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1600px) {
+
   .page-section {
     position: relative;
+  
+    &__header {
+      max-width: 770px;
+    }
+  }
+  
+}
+
+@media (max-width: 1350px) {
+
+  .page-section {
+    position: relative;
+
+    &__header {
+      max-width: 100%;
+    }
   
     &--contacts {
       display: flex;
       flex-direction: column;
       gap: 32px;
     }
+
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -46,6 +65,10 @@
       display: inline-block;
     }
 
+    &--requisites {
+      gap: 40px
+    }
+
   }
 }
 
@@ -54,6 +77,10 @@
 
     &--contacts {
       gap: 24px;
+    }
+
+    &--requisites {
+      gap: 32px;
     }
 
   }

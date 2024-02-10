@@ -42,14 +42,15 @@ let teamСarousel = new Swiper(".team", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
-    600: {
-      slidesPerView: 2,
-      spaceBetween: 24,
-     
+    320: {
       pagination: {
         el: ".swiper-pagination",
         type: "progressbar",
-      },
+      }
+    },
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 24,
     },
     800: {
       slidesPerView: 3,

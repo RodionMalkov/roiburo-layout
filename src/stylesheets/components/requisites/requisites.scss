@@ -36,6 +36,50 @@
     width: 40px;
     height: 40px;
     background: url('../../../images/svg/copy.svg') 50% 50% no-repeat;
+    background-color: var(--bg-grey);
+  }
+  
+}
+
+@media screen and (max-width: 1600px) {
+
+  .requisites {
+
+    max-width: 100%;
+    
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+
+  .requisites {
+
+    width: 100%;
+    max-width: 1144px;
+  
+    th {
+      width: 260px;      
+    }
+    
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .requisites {
+
+    th,
+    td {
+      width: 100%;
+      padding: 16px 0;
+      font-size: 14px;
+      line-height: 20px;
+      border-left: none;
+      border-right: none;
+    }
+    
   }
   
 }
