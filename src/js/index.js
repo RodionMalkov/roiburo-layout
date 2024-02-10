@@ -8,8 +8,7 @@ import 'swiper/css/pagination';
 import '../stylesheets/index.scss';
 
 var swiper = new Swiper(".office", {
-  slidesPerView: 3,
-  spaceBetween: 40,
+  slidesPerView: 1,
   pagination: {
     el: ".swiper-pagination",
     type: "progressbar",
@@ -17,5 +16,19 @@ var swiper = new Swiper(".office", {
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    600: {
+      slidesPerView: "auto",
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 24,
+    },
+    1700: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
   },
 });
