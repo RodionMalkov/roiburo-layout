@@ -8,6 +8,11 @@ a {
   color: var(--black);
 }
 
+a:hover {
+  color: var(--green);
+}
+
+
 .page {
   font-family: var(--regular);
   font-size: 18px;

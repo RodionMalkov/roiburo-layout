@@ -37,6 +37,11 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+    
+  }
+
+  &__item--last {
+    margin-right: auto;
   }
 
   &__item-title {
@@ -65,5 +70,6 @@
     align-items: center;
     gap: 24px;
     justify-content: space-between;
+    margin-top: 48px;
   }
 }
