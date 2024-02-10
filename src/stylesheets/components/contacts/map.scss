@@ -4,29 +4,48 @@
   height: 720px;
   background-color: var(--inactive);
   background-image: url('../../../images/map.png');
-  background-size: contain;
-
-  &::after {
-    content: '';
-    position: absolute;
-    top: 176px;
-    left: 796px;
-    background: url('../../../images/pin.svg');
-    width: 56px;
-    height: 64px;
-  }
+  
 }
 
 @media screen and (max-width: 1440px) {
 
   .map {
-    background-position: -100px -10px;
-    background-size: 160%;
-  
-    &::after {
-      top: 268px;
-      left: 910px;
-    }
+    background-image: url('../../../images/map-2.png');
+  }
+
+}
+
+@media screen and (max-width: 1350px) {
+
+  .map {
+    height: 400px;
+    background-size: cover;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .map {
+    background-image: url('../../../images/map-3.png');
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+
+  .map {
+    background-image: url('../../../images/map-4.png');
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .map {
+    height: 280px;
+    background-image: url('../../../images/map-4.png');
+    background-size: contain;
   }
 
 }

@@ -1,3 +1,34 @@
 .page-section {
   position: relative;
 }
+
+@media screen and (max-width: 1350px) {
+  .page-section {
+    position: relative;
+  
+    &--contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page-section {
+
+    &--contacts {
+      gap: 24px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page-section {
+  
+    &--contacts {
+      gap: 24px;
+    }
+  }
+}
