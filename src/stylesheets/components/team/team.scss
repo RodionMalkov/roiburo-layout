@@ -1,5 +1,6 @@
 .team {
   position: unset;
+  
 
   &__slide {
     display: flex;
@@ -21,6 +22,7 @@
   &__employee-post {
     font-size: 14px;
     line-height: 20px;
+    color: var(--grey);
   }
 
   &__controllers {
@@ -29,4 +31,17 @@
     right: 0;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+  
+    &__controllers {
+      display: none;
+    }
+  
+    &__controllers--pagination {
+      margin-top: 40px;
+    }
+  }
 }

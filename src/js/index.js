@@ -9,6 +9,7 @@ import '../stylesheets/index.scss';
 
 let officeСarousel = new Swiper(".office", {
   slidesPerView: 1,
+  spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
     type: "progressbar",
@@ -35,16 +36,22 @@ let officeСarousel = new Swiper(".office", {
 
 let teamСarousel = new Swiper(".team", {
   slidesPerView: 1,
+  spaceBetween: 10,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
     600: {
-      slidesPerView: "auto",
-      spaceBetween: 40,
+      slidesPerView: 2,
+      spaceBetween: 24,
+     
+      pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+      },
     },
-    1200: {
+    800: {
       slidesPerView: 3,
       spaceBetween: 24,
     },

@@ -30,6 +30,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .page-section {
+
+    &__title,
+    &__desc {
+      display: inline-block;
+    }
+
+  }
+}
+
 @media screen and (max-width: 600px) {
   .page-section {
 
