@@ -1,12 +1,15 @@
 import '../index.html';
-import '../stylesheets/index.scss';
 
-import Swiper from 'swiper';
+import Swiper from 'swiper/bundle';
 import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+import '../stylesheets/index.scss';
 
 var swiper = new Swiper(".office", {
   slidesPerView: 3,
-  spaceBetween: 30,
+  spaceBetween: 40,
   pagination: {
     el: ".swiper-pagination",
     type: "progressbar",

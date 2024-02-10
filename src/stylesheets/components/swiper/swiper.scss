@@ -1,0 +1,79 @@
+
+.swiper {
+
+  &__controllers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+  }
+
+  &__controllers--pagination {
+    height: 8px;
+  }
+
+  &__controllers-btns {
+    display: flex;
+    gap: 16px;
+  }
+
+  &__controllers-arrow {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__controllers-prev {
+    transform: rotate(180deg);
+  }
+
+  &__controllers-prev,
+  &__controllers-next {
+    width: 56px;
+    height: 56px;
+    padding: 16px;
+    inset: 0;
+  }
+
+  &__controllers-prev.swiper-button-disabled,
+  &__controllers-next.swiper-button-disabled {
+    border: 1px solid var(--disabled);
+  }
+
+  &__controllers-prev.swiper-button-disabled > .swiper__controllers-arrow path,
+  &__controllers-next.swiper-button-disabled > .swiper__controllers-arrow path {
+    stroke: var(--disabled);
+  }
+
+}
+
+.swiper-pagination {
+  position: relative;
+}
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: var(--green);
+}
+
+.swiper-horizontal > .swiper-pagination-progressbar,
+.swiper-pagination-progressbar.swiper-pagination-horizontal,
+.swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
+.swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
+  height: 8px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: relative;
+  inset: 0;
+  border: 1px solid var(--green);
+  margin: 0;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  display: none;
+}
+

@@ -72,9 +72,9 @@
               <div class="contacts__btns">
                 <div class="btn btn--alternative btn--flex">
                   <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12.75 17V3" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M6.75 11L12.75 17L18.75 11" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M19.75 21H5.75" stroke="#00A55A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.75 17V3" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.75 11L12.75 17L18.75 11" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.75 21H5.75" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>                    
                   Карта проезда
                 </div>
@@ -111,15 +111,24 @@
                 <img src="./images/office/office-3.png" alt="Фотографии офиса" title="Комната отдыха">
               </div>
             </div>
-            <div class="office__controllers">
-              <div class="swiper-pagination"></div>
-              <div class="office__controllers-btns">
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+            <div class="swiper__controllers">
+              <div class="swiper__controllers--pagination swiper-pagination"></div>
+              <div class="swiper__controllers-btns">
+                <div class="swiper__controllers-prev swiper-button-prev">
+                  <svg class="swiper__controllers-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 20L16 12L8 4" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  </div>
+                <div class="swiper__controllers-next swiper-button-next">
+                  <svg class="swiper__controllers-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 20L16 12L8 4" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
         </section>
+        
       </div>
     </div>
 
