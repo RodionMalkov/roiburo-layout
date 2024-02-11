@@ -1,7 +1,6 @@
 .office {
   display: flex;
   flex-direction: column;
-  
 
   &__wrapper {
     margin-bottom: 37px;
@@ -15,7 +14,6 @@
 
 @media screen and (max-width: 1440px) {
   .office {
-  
     &__wrapper {
       margin-bottom: 32px;
     }
@@ -24,7 +22,6 @@
 
 @media screen and (max-width: 1200px) {
   .office {
-  
     &__slide {
       width: 552px;
     }
@@ -37,12 +34,10 @@
 
 @media screen and (max-width: 600px) {
   .office {
-  
     &__slide {
       width: 100%;
       height: 252px;
     }
-
   }
 }
 
@@ -52,5 +47,4 @@
       margin-bottom: 24px;
     }
   }
-
 }

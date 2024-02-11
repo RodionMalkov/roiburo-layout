@@ -27,7 +27,6 @@
 }
 
 @media screen and (max-width: 1600px) {
-
   .page-section {
     position: relative;
   
@@ -35,11 +34,9 @@
       max-width: 770px;
     }
   }
-  
 }
 
 @media (max-width: 1350px) {
-
   .page-section {
     position: relative;
 
@@ -52,14 +49,11 @@
       flex-direction: column;
       gap: 32px;
     }
-
   }
-
 }
 
 @media (max-width: 768px) {
   .page-section {
-
     br {
       display: none;
     }
@@ -76,13 +70,11 @@
     &--team &__header {
       margin-bottom: 64px;
     }
-
   }
 }
 
 @media screen and (max-width: 769px) and (min-width: 600px) {
   .page-section {
-
     &--contacts {
       order: 1;
     }
@@ -98,13 +90,11 @@
     &--requisites {
       order: 4;
     }
-  }
-  
+  } 
 }
 
 @media screen and (max-width: 600px) {
   .page-section {
-
     &--contacts {
       gap: 24px;
     }
@@ -127,7 +117,6 @@
 
 @media screen and (max-width: 425px) {
   .page-section {
-  
     &--contacts {
       gap: 24px;
     }
@@ -135,6 +124,7 @@
     &--team &__header {
       margin-bottom: 50px;
     }
+    
     &--requisites &__desc {
       font-size: 16px;
       line-height: 24px;

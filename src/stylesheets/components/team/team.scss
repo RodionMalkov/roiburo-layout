@@ -1,6 +1,5 @@
 .team {
   position: unset;
-  
 
   &__slide {
     display: flex;
@@ -34,12 +33,10 @@
   &__controllers--pagination {
     display: none;
   }
-
 }
 
 @media (max-width: 768px) {
   .team {
-  
     &__controllers {
       display: none;
     }
@@ -53,10 +50,8 @@
 
 @media (max-width: 600px) {
   .team {
-  
     &__controllers--pagination {
       margin-top: 24px;
-    }
-    
+    }   
   }
 }

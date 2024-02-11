@@ -1,6 +1,5 @@
 
 .swiper {
-
   &__controllers {
     display: flex;
     justify-content: space-between;
@@ -44,8 +43,9 @@
   &__controllers-next.swiper-button-disabled > .swiper__controllers-arrow path {
     stroke: var(--disabled);
   }
-
 }
+
+// Swiper styles
 
 .swiper-pagination {
   position: relative;
@@ -77,23 +77,21 @@
   display: none;
 }
 
+// Swiper styles. END
+
 @media screen and (max-width: 768px) {
   .swiper {
-  
     &__controllers-btns {
       display: none;
     }
-  
   }
 }
 
 @media screen and (max-width: 600px) {
-
   .swiper-horizontal > .swiper-pagination-progressbar,
   .swiper-pagination-progressbar.swiper-pagination-horizontal,
   .swiper-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite,
   .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite {
     height: 4px;
   }
-  
 }

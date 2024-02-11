@@ -75,19 +75,16 @@
 }
 
 @media screen and (max-width: 1440px) {
-
   .contacts {
     top: 40px;
     left: 40px;
   }
-
 }
 
 @media screen and (max-width: 1350px) {
   .contacts {
     position: unset;
 
-  
     &__wrapper {
       max-width: 100%;
       padding: 40px 24px;
@@ -102,7 +99,6 @@
     &__btns {
       margin-top: 40px;
     }
-
   }
 }
 
@@ -110,7 +106,6 @@
   .contacts {
     position: unset;
 
-  
     &__wrapper {
       max-width: 100%;
       padding: 40px 24px;

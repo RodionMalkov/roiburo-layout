@@ -1,5 +1,4 @@
 .requisites {
-
   width: 100%;
   max-width: 1144px;
 
@@ -38,49 +37,34 @@
     background: url('../../../images/svg/copy.svg') 50% 50% no-repeat;
     background-color: var(--bg-grey);
   }
-  
 }
 
 @media screen and (max-width: 1600px) {
-
   .requisites {
-
-    max-width: 100%;
-    
+    max-width: 100%;  
   }
-  
 }
 
 @media screen and (max-width: 1200px) {
-
   .requisites {
-
     width: 100%;
     max-width: 1144px;
   
     th {
       width: 260px;      
-    }
-    
-  }
-  
+    }  
+  } 
 }
 
 
 @media screen and (max-width: 768px) {
-
   .requisites {
-
     margin:  56px 0 40px;
-
   }
-
 }
 
 @media screen and (max-width: 600px) {
-
   .requisites {
-
     th,
     td {
       width: 100%;
@@ -93,18 +77,12 @@
 
     td {
       padding: 16px 0 16px 20px;
-    }
-    
+    }  
   }
-  
 }
 
 @media screen and (max-width: 425px) {
-
   .requisites {
-
     margin: 20px 0 54px;
-    
   }
-  
 }

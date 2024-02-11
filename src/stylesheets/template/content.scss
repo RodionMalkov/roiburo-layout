@@ -1,40 +1,32 @@
 .content {
-
   &__wrapper {
     display: flex;
     flex-direction: column;
     gap: 124px;
     margin-top: 56px;
   }
-
 }
 
 @media screen and (max-width: 1350px) {
   .content {
-
     &__wrapper {
       margin-top: 40px;
     }
-  
   }
 }
 
 @media screen and (max-width: 768px) {
   .content {
-
     &__wrapper {
       gap: 100px;
     }
-  
   }
 }
 
 @media (max-width: 600px) {
   .content {
-
     &__wrapper {
       gap: 50px;
     }
-  
   }
 }
