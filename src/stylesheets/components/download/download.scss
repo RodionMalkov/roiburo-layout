@@ -1,7 +1,7 @@
 .download {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 110px;
   display: flex;
   gap: 24px;
   padding: 24px;
@@ -40,10 +40,17 @@
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .download {
+    right: 76px;
+  }
+}
+
 @media screen and (max-width: 1350px) {
   
   .download {
     position: relative;
+    inset: 0;
   }
 
 }

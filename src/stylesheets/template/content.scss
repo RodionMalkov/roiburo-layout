@@ -18,3 +18,23 @@
   
   }
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+
+    &__wrapper {
+      gap: 100px;
+    }
+  
+  }
+}
+
+@media (max-width: 600px) {
+  .content {
+
+    &__wrapper {
+      gap: 50px;
+    }
+  
+  }
+}

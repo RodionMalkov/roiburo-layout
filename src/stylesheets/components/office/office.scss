@@ -1,11 +1,24 @@
 .office {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  
+
+  &__wrapper {
+    margin-bottom: 37px;
+  }
 
   &__slide {
     width: 100%;
     height: 396px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .office {
+  
+    &__wrapper {
+      margin-bottom: 32px;
+    }
   }
 }
 
@@ -15,17 +28,29 @@
     &__slide {
       width: 552px;
     }
+
+    &__wrapper {
+      margin-bottom: 40px;
+    }
   }
 }
 
 @media screen and (max-width: 600px) {
   .office {
-
-    gap: 24px;
   
     &__slide {
       width: 100%;
       height: 252px;
     }
+
   }
+}
+
+@media screen and (max-width: 420px) {
+  .office {
+    &__wrapper {
+      margin-bottom: 24px;
+    }
+  }
+
 }

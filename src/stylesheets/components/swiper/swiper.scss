@@ -77,16 +77,17 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 768px) {
   .swiper {
-
   
     &__controllers-btns {
       display: none;
     }
   
   }
+}
+
+@media screen and (max-width: 600px) {
 
   .swiper-horizontal > .swiper-pagination-progressbar,
   .swiper-pagination-progressbar.swiper-pagination-horizontal,

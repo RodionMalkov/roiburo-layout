@@ -22,7 +22,7 @@
   &--requisites {
     display: flex;
     flex-direction: column;
-    gap: 56px;
+    gap: 50px;
   }
 }
 
@@ -57,8 +57,12 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .page-section {
+
+    br {
+      display: none;
+    }
 
     &__title,
     &__desc {
@@ -66,10 +70,36 @@
     }
 
     &--requisites {
-      gap: 40px
+      gap: 0;
+    }
+
+    &--team &__header {
+      margin-bottom: 64px;
     }
 
   }
+}
+
+@media screen and (max-width: 769px) and (min-width: 600px) {
+  .page-section {
+
+    &--contacts {
+      order: 1;
+    }
+
+    &--office {
+      order: 3;
+    }
+
+    &--team {
+      order: 2;
+    }
+  
+    &--requisites {
+      order: 4;
+    }
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -83,6 +113,15 @@
       gap: 32px;
     }
 
+    &__title {
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    &__desc {
+      font-size: 14px;
+      line-height: 20px;
+    }
   }
 }
 
@@ -91,6 +130,14 @@
   
     &--contacts {
       gap: 24px;
+    }
+
+    &--team &__header {
+      margin-bottom: 50px;
+    }
+    &--requisites &__desc {
+      font-size: 16px;
+      line-height: 24px;
     }
   }
 }

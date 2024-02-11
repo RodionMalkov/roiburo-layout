@@ -21,7 +21,7 @@
 
   &__employee-post {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 34px;
     color: var(--grey);
   }
 
@@ -31,9 +31,13 @@
     right: 0;
   }
 
+  &__controllers--pagination {
+    display: none;
+  }
+
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .team {
   
     &__controllers {
@@ -41,7 +45,18 @@
     }
   
     &__controllers--pagination {
+      display: block;
       margin-top: 40px;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .team {
+  
+    &__controllers--pagination {
+      margin-top: 24px;
+    }
+    
   }
 }
